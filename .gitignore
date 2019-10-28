@@ -1,0 +1,47 @@
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+*.moved-aside
+DerivedData
+.idea/
+Pods
+test-reports
+coverage.xml
+integration-test-reports
+vendor/
+*.ipa
+# Calabash
+screenshot_*.png
+.irb-history
+*.orig
+help/
+.bundle
+Seeds/
+.envrc
+
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots
+
+# scan temporary files
+fastlane/test_output
+
+# swiftlint report file
+report.json
+".gitignore" 52L, 687C
