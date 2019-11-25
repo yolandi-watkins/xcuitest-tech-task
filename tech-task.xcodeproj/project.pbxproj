@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B9BAEB52389A71E0040D0DD /* Springboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BAEB42389A71E0040D0DD /* Springboard.swift */; };
+		2B9BAEB7238AD6480040D0DD /* UITestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BAEB6238AD6480040D0DD /* UITestHelper.swift */; };
+		2B9BAEB9238AE3050040D0DD /* UITestConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BAEB8238AE3050040D0DD /* UITestConstants.swift */; };
 		B933996E2366F8990016796A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933996D2366F8990016796A /* AppDelegate.swift */; };
 		B93399702366F8990016796A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B933996F2366F8990016796A /* SceneDelegate.swift */; };
 		B93399722366F8990016796A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93399712366F8990016796A /* ViewController.swift */; };
@@ -31,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B9BAEB42389A71E0040D0DD /* Springboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Springboard.swift; sourceTree = "<group>"; };
+		2B9BAEB6238AD6480040D0DD /* UITestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestHelper.swift; sourceTree = "<group>"; };
+		2B9BAEB8238AE3050040D0DD /* UITestConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestConstants.swift; sourceTree = "<group>"; };
 		B933996A2366F8990016796A /* tech-task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tech-task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B933996D2366F8990016796A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B933996F2366F8990016796A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +111,9 @@
 			children = (
 				B93399842366F89A0016796A /* tech_taskUITests.swift */,
 				B93399862366F89A0016796A /* Info.plist */,
+				2B9BAEB42389A71E0040D0DD /* Springboard.swift */,
+				2B9BAEB6238AD6480040D0DD /* UITestHelper.swift */,
+				2B9BAEB8238AE3050040D0DD /* UITestConstants.swift */,
 			);
 			path = "tech-taskUITests";
 			sourceTree = "<group>";
@@ -234,7 +243,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B9BAEB7238AD6480040D0DD /* UITestHelper.swift in Sources */,
 				B93399852366F89A0016796A /* tech_taskUITests.swift in Sources */,
+				2B9BAEB52389A71E0040D0DD /* Springboard.swift in Sources */,
+				2B9BAEB9238AE3050040D0DD /* UITestConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
